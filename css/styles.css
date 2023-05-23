@@ -29,6 +29,8 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--first-logo-color);
@@ -46,7 +48,7 @@ body {
   color: #404bbf;
 }
 .contacts {
-font-style: normal;
+  font-style: normal;
 }
 .contacts-link {
   letter-spacing: 0.02em;
@@ -71,13 +73,18 @@ font-style: normal;
 }
 .hero-btn {
   font-family: 'Roboto', sans-serif;
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  display: flex;
+  align-items: center;
   letter-spacing: 0.04em;
-  color: var(--white-color);
   background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   cursor: pointer;
+  color: var(--white-color);
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -107,6 +114,7 @@ font-style: normal;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
   color: #2e2f42;
 }
 
@@ -125,6 +133,9 @@ font-style: normal;
 }
 .team-card {
   background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-name {
   font-weight: 500;
@@ -172,6 +183,7 @@ font-style: normal;
 }
 .portfolio-text {
   letter-spacing: 0.02em;
+  color: var(--primary-color);
 }
 .color-logo-footer {
   color: var(--second-logo-color-footer);
